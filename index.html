@@ -11,7 +11,8 @@
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
-    <!-- Favicon -->
+    <!-- GoogleFonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
 
     <!-- Personal stylesheet -->
     <link rel="stylesheet" type="text/css" href="./style.css">
@@ -22,18 +23,18 @@
     <body>
 
       <!-- Nav -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-dark">
           <a class="navbar-brand" href="#">Liz Breslin</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon custom-toggler"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+              <li class="nav-item ml-3">
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+              <li class="nav-item ml-3">
+                  <a class="nav-link" href="#about">About</a>
                 </li>
             </ul>
           </div>
@@ -51,7 +52,7 @@
 
 
       <!-- Project section  -->
-        <div class="container-fluid">
+        <div class="container-fluid" id="projects">
           <div class="row justify-content-around">
             <div class="col-md-6 col-lg-6 col-xs-12">
                 <img src="images/project-placeholder.png">
@@ -64,7 +65,7 @@
 
 
       <!-- About me -->
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid" id="about">
           <div class="container">
             <h2 class="display-4">Liz Breslin</h2>
             <p>About me will go here</p>
