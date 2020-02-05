@@ -1,0 +1,73 @@
+body {
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+/* Nav */
+.navbar .navbar-brand {
+  color: #4e4e4e;
+}
+.navbar .navbar-brand:hover {
+  color: #777676;
+}
+
+ .navbar .navbar-nav .nav-item .nav-link {
+  color: #777676;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #999999;
+}
+
+/* Hero */
+.hero-container {
+  background-image: url(./images/cacti-background.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  height: 400px;
+  width: 110%;
+}
+
+.layer {
+  background-color: rgba(126, 126, 126, 0.5);
+  width: 105vw;
+  height: 400px;
+  margin-left: -20px;
+  margin-right: -30px;
+}
+
+.hero-titles {
+  color: white;
+  text-shadow: 1px 1px 2px #616161;
+}
+/* ^^ have it like for smaller screens in media queries, but make look better for bigger screens */
+
+.github-btn {
+  border-radius: 30px;
+  letter-spacing: 1.1px;
+  background-color: rgba(248, 166, 89, 0.8);
+  border-color: rgba(248, 166, 89, 0.9);
+  color: #ffffff;
+}
+
+.github-btn:hover {
+  background-color: rgba(209, 140, 76, 0.8);
+  border-color: rgba(209, 140, 76, 0.9);
+  color: #fafafa;
+}
+
+
+/* Project section */
+.aspectRatioBox {
+  padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
+}
+
+#projects h3 {
+  color: #4e4e4e;
+}
+
+/* About */
+.about-section {
+  background-color: rgba(209, 140, 76, 0.8);
+}
