@@ -24,7 +24,7 @@ body {
   background-size: cover;
   background-position: center bottom;
   height: 400px;
-  width: 100%;
+  width: 110%;
 }
 
 .layer {
@@ -32,6 +32,7 @@ body {
   width: 105vw;
   height: 400px;
   margin-left: -20px;
+  margin-right: -30px;
 }
 
 .hero-titles {
@@ -60,4 +61,13 @@ body {
   padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
   background-size: cover;
   background-position: center;
+}
+
+#projects h3 {
+  color: #4e4e4e;
+}
+
+/* About */
+.about-section {
+  background-color: rgba(209, 140, 76, 0.8);
 }
